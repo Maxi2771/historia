@@ -45,6 +45,7 @@ header a:hover{
   background-color: #7700ff;
   border-radius: 50px;
   align-items: center;
+  cursor: pointer;
 }
 
 .time-line {

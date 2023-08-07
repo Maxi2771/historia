@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Línea de tiempo</title>
   </head>
-  <body onclick="pleayaudio()">
+  <body>
     <header>
       <div class="menu">
         <a class="botones" href="#bienvenida">Bienvenida</a>
@@ -27,7 +27,7 @@
         <h2>Profesora:Milagros Rocio Castano Gomez</h2>
         <h2>Alumno:Máximo Goitia</h2>
         <h2>Curso:4°12</h2>
-        <a><img src="image/start.svg"></a>
+        <a><img src="image/start.svg" onclick="pleayaudio()"> <img src="image/pause.svg" onclick="pauseaudio()"></a>
       </div>
     </main>
     <main class="linea-tiempo" id="linea">
@@ -204,5 +204,8 @@
 <script>
   function pleayaudio() {
     document.getElementById("musica").play();
+  }
+  function pauseaudio(){
+    document.getElementById("musica").pause();
   }
 </script>
