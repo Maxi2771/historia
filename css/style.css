@@ -14,13 +14,15 @@ header a {
   margin-top: 100px;
   text-align: center;
   display: block;
-  margin-bottom: 450px;
+  margin-bottom: 150px;
+  margin-left: 20px;
   text-decoration: none;
   color: white;
   width: 100px;
   height: 30px;
   background-color: #7700ff;
   opacity: 0.7;
+  border-radius: 50px;
 }
 
 header a:hover{
@@ -31,7 +33,7 @@ header a:hover{
   background-image: url(../image/inicio.gif);
   background-size: cover;
   width: 100%;
-  height: 1400px;
+  height: 650px;
   display: flex; /* Convertimos .bienvenida en un flex container */
   justify-content: center; /* Centramos horizontalmente el contenido (h1) */
   align-items: center; /* Centramos verticalmente el contenido (h1) */
@@ -50,7 +52,7 @@ header a:hover{
 
 .time-line {
   position: relative;
-  max-width: 1200px;
+  max-width: 850px;
   margin: 120px auto;
 }
 
@@ -108,7 +110,7 @@ header a:hover{
 }
 
 .left-container {
-  left: 0;
+  left: -3%;
 }
 
 .right-container {
@@ -155,7 +157,7 @@ header a:hover{
   height: 0;
   width: 0;
   position: absolute;
-  top: 28px;
+  top: 40px;
   z-index: 1;
   border-radius: 15px solid transparent;
   border-bottom: 15px solid transparent;
@@ -167,7 +169,7 @@ header a:hover{
   height: 0;
   width: 0;
   position: absolute;
-  top: 28px;
+  top: 40px;
   z-index: 1;
   border-radius: 15px solid transparent;
   border-bottom: 15px solid transparent;
@@ -179,7 +181,7 @@ header a:hover{
     background-image: url(../image/fin.gif);
     background-size: cover;
     width: 100%;
-    height: 1400px;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
