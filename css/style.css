@@ -191,7 +191,7 @@ header a:hover {
 
 @media screen and (max-width: 828px) {
   body{
-    max-width: 772px;
+    max-width: 828px;
   }
 
   header{
@@ -200,7 +200,7 @@ header a:hover {
   }
 
   .bienvenida{
-    max-width: 772px;
+    max-width: 828px;
     height: 450px;
   }
 
@@ -256,7 +256,7 @@ header a:hover {
   .fin {
     background-image: url(../image/fin.gif);
     background-size: cover;
-    max-width: 772px;
+    max-width: 828px;
     height: 450px;
     display: flex;
     justify-content: center;
