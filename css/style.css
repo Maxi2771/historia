@@ -261,6 +261,16 @@ header a:hover {
   padding-left: 20px;
 }
 
+.three{
+  background-color: yellow;
+}
+
+video{
+  margin-left: 10%;
+  width: 80%;
+  border: 15px solid yellow;
+}
+
 .fin {
   background-image: url(../image/fin.gif);
   background-size: cover;
