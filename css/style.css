@@ -254,6 +254,11 @@ header a:hover {
   animation: moveline 6s linear forwards;
 }
 
+table{
+  border: 5px solid slateblue;
+}
+
+
 .etapa-1 {
   width: 99%;
   border: 9px solid black;
@@ -265,6 +270,12 @@ header a:hover {
 
 .three{
   background-color: yellow;
+}
+
+.modelo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 video{
