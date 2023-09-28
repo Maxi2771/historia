@@ -269,7 +269,7 @@ table{
 }
 
 .three{
-  background-color: yellow;
+  background-color: #FA00FF;
 }
 
 .modelo{
@@ -281,7 +281,7 @@ table{
 video{
   margin-left: 10%;
   width: 80%;
-  border: 15px solid yellow;
+  border: 15px solid #FA00FF;
 }
 
 .fin {
