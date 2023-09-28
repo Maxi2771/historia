@@ -278,9 +278,10 @@ table{
   justify-content: center;
 }
 
-video{
+iframe{
   margin-left: 10%;
   width: 80%;
+  height: 900px;
   border: 15px solid #FA00FF;
 }
 
