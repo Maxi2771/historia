@@ -306,6 +306,12 @@ table{
   color: greenyellow;
 }
 
+.escritura{
+  background-color: black;
+  color: greenyellow;
+  border: 5px solid greenyellow;
+}
+
 .modelo{
   display: flex;
   align-items: center;
